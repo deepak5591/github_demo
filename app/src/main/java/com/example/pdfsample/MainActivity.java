@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         view.fromAsset("dummy.pdf").enableSwipe(true)
                 .swipeHorizontal(true)
                 .load();
+        Log.d("MainActivity","This code will be uncommented later on");
        /* Button button = findViewById(R.id.table);
         button.setOnClickListener(view -> {
             startActivity(new Intent(this,TableActivity.class));
