@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(view -> {
             startActivity(new Intent(this,TableActivity.class));
         });*/
-        new CountDownTimer(10000,1000){
+       /* new CountDownTimer(10000,1000){
 
             @Override
             public void onTick(long l) {
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onFinish() {
                 Log.i("CountDownTimer","Timer is Finished");
             }
-        }.start();
+        }.start();*/
+        Log.d("Main Activity","Counter code commented out");
     }
 }
