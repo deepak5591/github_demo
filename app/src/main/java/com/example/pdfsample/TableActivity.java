@@ -19,6 +19,7 @@ public class TableActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("TableActivity","Oncreate");
         setContentView(R.layout.activity_table);
         seekBar = findViewById(R.id.seekbar);
         listView = findViewById(R.id.list);
