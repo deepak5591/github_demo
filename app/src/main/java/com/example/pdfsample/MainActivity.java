@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       /* PDFView view = findViewById(R.id.pdfView);
+        PDFView view = findViewById(R.id.pdfView);
         view.fromAsset("dummy.pdf").enableSwipe(true)
                 .swipeHorizontal(true)
-                .load();*/
-        Button button = findViewById(R.id.table);
+                .load();
+       /* Button button = findViewById(R.id.table);
         button.setOnClickListener(view -> {
             startActivity(new Intent(this,TableActivity.class));
-        });
+        });*/
         new CountDownTimer(10000,1000){
 
             @Override
